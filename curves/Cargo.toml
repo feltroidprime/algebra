@@ -37,6 +37,7 @@ members = [
     "secp256r1",
     "secp384r1",
     "secq256k1",
+    "starknet-curve",
 
     "curve25519",
     "ed25519",
