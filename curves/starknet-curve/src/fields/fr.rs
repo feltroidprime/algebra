@@ -1,8 +1,8 @@
 use ark_ff::fields::{Fp256, MontBackend, MontConfig};
 
 #[derive(MontConfig)]
-#[modulus = "115792089237316195423570985008687907852837564279074904382605163141518161494337"]
-#[generator = "7"]
+#[modulus = "3618502788666131213697322783095070105526743751716087489154079457884512865583"]
+#[generator = "3"]
 #[small_subgroup_base = "3"]
 #[small_subgroup_power = "1"]
 pub struct FrConfig;
