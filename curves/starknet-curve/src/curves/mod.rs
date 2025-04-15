@@ -66,8 +66,8 @@ impl SWCurveConfig for Config {
     const GENERATOR: Affine = Affine::new_unchecked(G_GENERATOR_X, G_GENERATOR_Y);
 
     #[inline(always)]
-    fn mul_by_a(_: Self::BaseField) -> Self::BaseField {
-        Self::BaseField::zero()
+    fn mul_by_a(x: Self::BaseField) -> Self::BaseField {
+        x
     }
 }
 
